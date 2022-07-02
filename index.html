@@ -13,13 +13,16 @@
 <body onload="init()">
   <section>
     <h1>Player</h1>
-    <div>
-      <video id="video" src="url"></video>
+    <div class="player">
+      <video id="video" src="url">
+        <source id="source">
+      </video>
       <div class="controls"></div>
     </div>
     <h3>Title</h3>
     <h4>Subtitle</h4>
   </section>
 
+  <input type="file" name="inputVideo" id="inputVideo">
 </body>
 </html>
